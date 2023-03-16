@@ -1,0 +1,77 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+    background-color:#C0D6DF
+}
+
+header {
+	background-color: #4F6D7A;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+nav li {
+    
+	display: inline-block;
+	margin-right: 20px;
+    color: #EAEAEA
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover{
+    color: #001F54;
+}
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #4F6D7A;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+iframe{
+    
+    width: 100%;
+    height: 40rem;
+    margin: auto;
+}
+img{
+    width: 75%;
+    
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+span{
+    font-size: 1.5rem;
+}
+.bizare{
+    opacity: 5%;
+}
